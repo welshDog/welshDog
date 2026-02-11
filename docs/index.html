@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welshDog - AI Agent Architect</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <style>
+        :root { --accent: #00F5FF; --bg: #0d1117; --text: #c9d1d9; }
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .accent { color: var(--accent); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 4rem; max-width: 1200px; margin: 0 auto; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 1.5rem; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); border-color: var(--accent); }
+        a { color: var(--accent); text-decoration: none; }
+    </style>
+    <!-- JSON-LD for Step 8 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "welshDog",
+      "url": "https://welshDog.github.io",
+      "sameAs": [
+        "https://github.com/welshDog"
+      ],
+      "jobTitle": "AI Agent Architect"
+    }
+    </script>
+</head>
+<body>
+    <div class="hero">
+        <h1>Hi, I'm <span class="accent">welshDog</span></h1>
+        <div id="typed-strings">
+            <p>I build <strong>autonomous agents</strong>.</p>
+            <p>I architect <strong>neurodivergent-first tools</strong>.</p>
+            <p>I ship <strong>HyperCode</strong>.</p>
+        </div>
+        <span id="typed" style="font-size: 1.5rem;"></span>
+    </div>
+    
+    <div class="grid">
+        <div class="card">
+            <h3>🤖 BROski</h3>
+            <p>Ultimate autonomous agent suite.</p>
+            <a href="https://github.com/welshDog/GitHub-Hyper-Agent-BROski">View Repo &rarr;</a>
+        </div>
+        <div class="card">
+            <h3>🧹 CareTaker</h3>
+            <p>AI-powered repo maintenance.</p>
+            <a href="https://github.com/welshDog/My-GitHub-CareTaker">View Repo &rarr;</a>
+        </div>
+        <!-- Add more cards dynamically or statically -->
+    </div>
+    
+    <script>
+        new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+    </script>
+</body>
+</html>
