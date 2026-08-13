@@ -102,7 +102,7 @@ You do not need permission to build. Pick your next step:
 |---|---|
 | 🎓 Learn AI-powered coding | [Start the Hyper-Vibe Coding Course](https://github.com/welshDog/Hyper-Vibe-Coding-Course) |
 | 🤖 Explore the AI-agent platform | [Open HyperCode V2.4](https://github.com/welshDog/HyperCode-V2.4) |
-| 💬 Find your people | [Join the Hyperfocus Zone Discord](PASTE_YOUR_DISCORD_INVITE_HERE) |
+| 💬 Find your people | [Join the Hyperfocus Zone Discord](https://discord.gg/3Mkd87xgAR) |
 | 💼 See the full universe | [Visit the WelshDog portfolio](https://github.com/welshDog/showcase-web) |
 | 💜 Help keep it free | [Become a GitHub Sponsor](https://github.com/sponsors/welshDog) |
 | 🤝 Contribute to a project | Pick a repo → read `CONTRIBUTING.md` → create magic |
